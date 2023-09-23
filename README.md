@@ -17,7 +17,7 @@ The purpose of this analysis is to evaluate the performance of a deep learning m
   - The features used for the model include various input columns from the dataset, such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," and others.
 
 - Variables Removed:
-  - No variables were explicitly removed from the input data. However, feature engineering and selection could be further explored to improve model performance.
+  - Non-beneficial ID columns "EIN" and "NAME" were removed from the input data to enhance model performance.
 
 ### Compiling, Training, and Evaluating the Model
 
